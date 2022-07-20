@@ -66,13 +66,13 @@ OPN10	I am full of ideas.<br/>
 
 The time spent on each question is also recorded in milliseconds. These are the variables ending in _E. This was calculated by taking the time when the button for the question was clicked minus the time of the most recent other button click.
 
-dateload    The timestamp when the survey was started.<br/>
-screenw     The width the of user's screen in pixels<br/>
-screenh     The height of the user's screen in pixels<br/>
-introelapse The time in seconds spent on the landing / intro page<br/>
-testelapse  The time in seconds spent on the page with the survey questions<br/>
-endelapse   The time in seconds spent on the finalization page (where the user was asked to indicate if they has answered accurately and their answers could be stored and used for research. Again: this dataset only includes users who answered "Yes" to this question, users were free to answer no and could still view their results either way)
-IPC         The number of records from the user's IP address in the dataset. For max cleanliness, only use records where this value is 1. High values can be because of shared networks (e.g. entire universities) or multiple submissions<br/>
-country     The country, determined by technical information (NOT ASKED AS A QUESTION)<br/>
-lat_appx_lots_of_err    approximate latitude of user. determined by technical information, THIS IS NOT VERY ACCURATE. Read the article "How an internet mapping glitch turned a random Kansas farm into a digital hell" https://splinternews.com/how-an-internet-mapping-glitch-turned-a-random-kansas-f-1793856052 to learn about the perils of relying on this information<br/>
-long_appx_lots_of_err   approximate longitude of user
+dateload  :  The timestamp when the survey was started.<br/>
+screenw    : The width the of user's screen in pixels<br/>
+screenh    : The height of the user's screen in pixels<br/>
+introelapse :The time in seconds spent on the landing / intro page<br/>
+testelapse : The time in seconds spent on the page with the survey questions<br/>
+endelapse  : The time in seconds spent on the finalization page (where the user was asked to indicate if they has answered accurately and their answers could be stored and used for research. Again: this dataset only includes users who answered "Yes" to this question, users were free to answer no and could still view their results either way)
+IPC       :  The number of records from the user's IP address in the dataset. For max cleanliness, only use records where this value is 1. High values can be because of shared networks (e.g. entire universities) or multiple submissions<br/>
+country    : The country, determined by technical information (NOT ASKED AS A QUESTION)<br/>
+lat_appx_lots_of_err :   approximate latitude of user. determined by technical information<br/>
+long_appx_lots_of_err: approximate longitude of user
