@@ -2,6 +2,7 @@
 Week-1: Learned about various useful libraries such as Pandas, NumPy, Scipy etc. Assignment 1 is based on the application of these libraries to the questions.<br/>
 Week-2: Learned about Linear Regression and Regression in multiple variables. Assignment 2 is based on the application of Linear Regression to the given Dataset.<br/>
 Week-3: Learned about K Means Clustering Algorithm and applied it to the various datasets given. Implemented the Clustering algorithm from Scratch.<br/>
+Link to the notebook of FinalImplementation:https://colab.research.google.com/drive/1rk2niv9t7OronuwjgSi7ufP-EcOJiXEZ#scrollTo=Tn3wh1R-Qv6J<br/>
 Downloaded the dataset containing the survey result which was conducted on Social Media from Kaggle. Perforemed EDA on this dataset to find out which countries had the most participation and which countries had the least participation. By using EDA I also found out how many people were there corresponding to a given rating of a question. Finally after cleaning the data by dropping the unnecessary columns as well as any NaN values that existed I got the final dataframe on which I applied the kmeans method of the sklearn.cluster module. Using this function I divided this unlabelled data into 5 clusters and calculated the mean of all the character traits in a cluster to identify what is the major character trait in the cluster.<br/>
 Link to the Kaggle dataset:https://drive.google.com/file/d/17NrQWl8E_kgxPxvITKbelQb-DMKvVMWW/view?usp=sharing<br/>
 Could not upload it in the repo since the size of the dataset is greater than 25 MB. <br/>
